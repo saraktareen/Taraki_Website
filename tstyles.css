@@ -1,0 +1,456 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    padding: 0.2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 4px;
+    position: fixed;
+    background-color: white;
+    width: -webkit-fill-available;
+}
+
+#logo {
+    width: 29%;
+    margin-left: 3%;
+}
+
+.navItems {
+    font-weight: 600;
+}
+
+.navbar_container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    width: 309px;
+    justify-content: space-between;
+    margin-left: 2%;
+}
+
+.navItems {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.navItems:hover {
+    color: #0f3773;
+}
+
+.navButtons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 222px;
+    height: 41px;
+}
+
+.navBtns {
+    background-color: transparent;
+    border: 1px solid #0f3773;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0f3773;
+}
+
+.navBtns:hover{
+    background-color:#0f3773;
+    color: white;
+    font-weight: 500;
+}
+
+.downloadBtn {
+    background-color: #0f3773;
+    border: 1px solid black;
+    padding: 0.8rem 2.3rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-right: 14px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.downloadBtn img {
+    margin-right: 8px;
+    align-self: center;
+}
+
+.downloadBtn:hover {
+    background-color: black;
+}
+
+/*  */
+
+/* Default styles for navbar */
+
+.navButtons {
+    display: flex;
+    flex-direction: row;
+    height: 41px;
+  }
+  
+  .hamburger {
+    display: none; /* hide hamburger menu icon by default */
+  }
+  
+  /* Media query for screens with max-width of 414px */
+  
+  /*  */
+/*  */
+/*  */
+
+
+
+/* MAIN HEADING */
+.main_heading {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+.text_main_heading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 1%;
+}
+
+.text_main_heading h3 {
+    font-size: 1.7rem;
+}
+
+.imgContainer {
+    width: 50%;
+}
+
+#website_img {
+    width: 100%;
+    margin-top: 56px;
+}
+
+.main_heading_buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_heading_buttons a {
+    margin-left: 10px;
+    align-self: center;;
+}
+
+.post-job-btn {
+    text-decoration: none;
+    padding: 0.9rem 2rem;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: black;
+}
+
+.post-job-btn:hover {
+    background-color:#0f3773;
+    color: white;
+    font-weight: 500;
+}
+
+.downloadLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0f3773;
+    width: 200px;
+    color: white;
+    padding: 0 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.downloadLink img {
+    margin-right: 10px;
+}
+
+.downloadLink:hover {
+    background-color: black;
+}
+
+.headingText {
+    margin-bottom: 0;
+    font-size: 3.5rem;
+}
+
+.second_heading {
+    padding: 3rem 1.2rem;
+    background-color: #0f3773;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+    align-items: center;
+}
+
+.second_heading img {
+    width: 34%;
+    margin-left: 37px;
+}
+
+#square h2 {
+    color: white;
+    font-size: 138%;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+#square {
+    width: 700px;
+}
+
+
+/* Grid */
+.what_do_we_offer {
+    padding: 64px;
+    padding-top: 44px;
+    padding-left: 52px;
+    border-radius: 5px;
+
+}
+
+.what_do_we_offer h2 {
+    color: #0f3773;
+    font-size: 27px;
+    margin-bottom: 28px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 10px 10px;
+    padding-left: 0px;
+}
+
+.box_structure {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 20px;
+    padding-bottom: 4px;
+    flex-wrap: wrap;
+}
+
+.box_structure:hover {
+    border: 2px solid #0f3773;
+    border-radius: 5px;;
+}
+
+.box_structure #heading {
+    font-size: 24px;
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.box_structure #subheading {
+    font-size: 17px;
+    margin-top: 9px;
+}
+
+/*  */
+/*  */
+/*  */
+/* For an iPhone XR */
+@media (max-width:414px) {
+    nav {
+        padding: 1.2rem 2rem
+    }
+    #logo {
+        width: 39%;
+        margin-left: 0%;
+    }
+
+    .navLinks {
+        visibility: hidden;
+    }    
+
+    .navButtons {
+        visibility: hidden;
+    }
+
+    .headingText {
+        margin-bottom: 0;
+        font-size: 3.6rem;
+        margin-top: 33%;
+    }
+    
+    .text_main_heading h3 {
+        font-size: 1.5rem;
+    }
+
+    .main_heading_buttons {
+        display: grid;
+        grid-row-gap: 12%;
+    }
+
+    .post-job-btn {
+        width: 30%;
+        padding: 3%;
+    }
+
+    .main_heading_buttons button {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        width: 30%;
+        margin-left: 0px;
+        border: 1px solid black;
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+    .downloadLink {
+        width: 175px;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+
+
+    .second_heading img {
+        width: 95%;
+        margin-left: 5px;
+    }
+
+    #square h2 {
+        color: white;
+        font-size: 102%;
+        font-weight: lighter;
+        line-height: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .what_do_we_offer {
+        padding-left: 17px;
+        padding-right: 48px;
+    }
+
+
+    .boxes {
+        grid-template-columns: auto;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        padding: 5px;
+    }
+    
+    .box_structure {
+        padding: 10px;
+    }
+    
+    .box_structure #heading {
+        font-size: 20px;
+    }
+    
+    .box_structure #subheading {
+        font-size: 14px;
+    } 
+
+  /*  */
+/*  */
+/*  */
+/*  */
+    /* Hide the regular nav buttons */
+    .navButtons {
+        display: none;
+    }
+
+    .hamburger .downloadBtn {
+        display:none;
+    }
+    
+    /* Show the hamburger menu icon */
+    .hamburger {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    
+    /* Style the hamburger menu icon */
+    .hamburger img {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        position:fixed;
+    }
+    
+    /* Hide the navbar links and buttons initially */
+    .navLinks,
+    .navBtns {
+        display: none;
+    }
+    
+    /* Show the navbar links and buttons when the hamburger menu icon is clicked */
+    .hamburger.clicked + .navLinks,
+    .hamburger.clicked + .navButtons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:1000px) {
+    .box_structure {
+        border: 1px solid black;
+        width: 100%;
+        padding: 1rem 0.8rem;
+        /* margin-right: 15px; */
+        margin-bottom: 15px;
+    }
+
+    .imgContainer {
+        display: none;
+    }
+
+    .text_main_heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second_heading {
+        padding: 1rem 1.2rem;
+        background-color: #0f3773;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #square {
+        width: auto;
+    }
+}
