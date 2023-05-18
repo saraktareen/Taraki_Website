@@ -1,9 +1,13 @@
-// JavaScript code goes here
-function toggleMenu() {
-    var hamburger = document.querySelector(".hamburger");
-    hamburger.classList.toggle("clicked");
+function myFunction() {
+  var x = document.getElementsByClassName("hamburger");
+  if (filename.tstyles.css.display === "flex") {
+    x.tstyles.display = "none";
+    alert("Block")
+  } else {
+    x.tstyles.display = "flex";
+    alert("Not block")
   }
-  
+}
 
 function validateForm() {
   let name = document.forms["myForm"]["enter_name"].value;

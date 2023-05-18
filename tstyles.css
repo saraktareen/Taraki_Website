@@ -1,3 +1,4 @@
+/* Setting the font for all the elements of the html file */
 * {
     font-family: sans-serif;
 }
@@ -6,6 +7,7 @@ body {
     margin: 0px;
 }
 
+/* Navigation bar */
 nav {
     padding: 0.2rem 2rem;
     display: flex;
@@ -98,8 +100,6 @@ nav {
     background-color: black;
 }
 
-/*  */
-
 /* Default styles for navbar */
 
 .navButtons {
@@ -112,14 +112,6 @@ nav {
     display: none; /* hide hamburger menu icon by default */
   }
   
-  /* Media query for screens with max-width of 414px */
-  
-  /*  */
-/*  */
-/*  */
-
-
-
 /* MAIN HEADING */
 .main_heading {
     display: flex;
@@ -200,6 +192,7 @@ nav {
     font-size: 3.5rem;
 }
 
+/* SECOND HEADING */
 .second_heading {
     padding: 3rem 1.2rem;
     background-color: #0f3773;
@@ -226,7 +219,7 @@ nav {
 }
 
 
-/* Grid */
+/* GRID */
 .what_do_we_offer {
     padding: 64px;
     padding-top: 44px;
@@ -275,6 +268,7 @@ nav {
     margin-top: 9px;
 }
 
+/* FORM */
 .form{
     padding-left: 50px;    
 }
@@ -421,6 +415,7 @@ nav {
         justify-content: space-between;
         align-items: center;
         padding: 0.5rem;
+        padding-left: 0px;
     }
     
     /* Style the hamburger menu icon */
@@ -431,7 +426,7 @@ nav {
         position:fixed;
     }
     
-    /* Hide the navbar links and buttons initially */
+    Hide the navbar links and buttons initially
     .navLinks,
     .navBtns {
         display: none;
