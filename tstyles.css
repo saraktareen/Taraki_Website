@@ -275,8 +275,37 @@ nav {
     margin-top: 9px;
 }
 
-/*  */
-/*  */
+.form{
+    padding-left: 50px;    
+}
+
+.form h2 {
+    color: #0f3773;
+    font-size: 27px;
+}
+
+.form-box { 
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+
+.form-box input {
+    width: 60%;
+    margin-left: 20px;
+}
+
+#submit-button {
+    width: 7%;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #0f3773;
+    border-color: black;
+    color:white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 /*  */
 /* For an iPhone XR */
 @media (max-width:414px) {
@@ -375,10 +404,7 @@ nav {
         font-size: 14px;
     } 
 
-  /*  */
-/*  */
-/*  */
-/*  */
+ 
     /* Hide the regular nav buttons */
     .navButtons {
         display: none;
